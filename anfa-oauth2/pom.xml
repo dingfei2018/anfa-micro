@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.anfachina</groupId>
-	<artifactId>anfa-auth</artifactId>
+	<artifactId>anfa-oauth2</artifactId>
 	<version>${anfa.version}</version>
 	<packaging>jar</packaging>
 
-	<name>anfa-auth</name>
+	<name>anfa-oauth2</name>
 	<description>jwt 认证服务</description>
 
 	<parent>
