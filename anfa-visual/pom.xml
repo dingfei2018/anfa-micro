@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.anfachina</groupId>
+    <artifactId>anfa-visual</artifactId>
+    <version>${anfa.version}</version>
+    <packaging>pom</packaging>
+
+    <name>anfa-visual</name>
+    <description>图形化管理模块</description>
+
+    <parent>
+        <artifactId>anfa-microservice</artifactId>
+        <groupId>com.anfachina</groupId>
+        <version>${anfa.version}</version>
+    </parent>
+
+    <modules>
+        <module>anfa-monitor</module>
+        <module>anfa-zipkin-elk</module>
+        <module>anfa-zipkin-db</module>
+        <!--<module>pig-cache-cloud</module>-->
+    </modules>
+</project>

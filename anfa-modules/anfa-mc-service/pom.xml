@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.anfachina</groupId>
+    <artifactId>anfa-mc-service</artifactId>
+    <version>${anfa.version}</version>
+    <packaging>jar</packaging>
+
+    <name>anfa-mc-service</name>
+    <description>消息中心</description>
+
+    <parent>
+        <groupId>com.anfachina</groupId>
+        <artifactId>anfa-modules</artifactId>
+        <version>${anfa.version}</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.anfachina</groupId>
+            <artifactId>anfa-common</artifactId>
+            <version>${anfa.version}</version>
+        </dependency>
+        <!--rabbitMQ-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-amqp</artifactId>
+        </dependency>
+        <!--阿里大于-->
+        <dependency>
+            <groupId>com.aliyun.taobao</groupId>
+            <artifactId>alidayu-sms</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/src/main/resources/lib/alidayu-sms-1.0.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <finalName>${project.name}</finalName>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
