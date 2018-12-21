@@ -80,13 +80,13 @@
     </dependencies>
 
     <modules>
-        <module>pig-auth</module>
-        <module>pig-config</module>
-        <module>pig-common</module>
-        <module>pig-eureka</module>
-        <module>pig-gateway</module>
-        <module>pig-modules</module>
-        <module>pig-visual</module>
+        <module>anfa-oauth2</module>
+        <module>anfa-config</module>
+        <module>anfa-common</module>
+        <module>anfa-eureka</module>
+        <module>anfa-gateway</module>
+        <module>anfa-modules</module>
+        <module>anfa-visual</module>
     </modules>
 
     <dependencyManagement>
