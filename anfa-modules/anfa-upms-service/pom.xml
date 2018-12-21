@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>anfa-upms-service</name>
-	<description>anfa-upms-service</description>
+	<description>权限管理提供</description>
 
 	<parent>
 		<groupId>com.anfachina</groupId>

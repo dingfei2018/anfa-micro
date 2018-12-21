@@ -8,8 +8,8 @@
     <version>${anfa.version}</version>
     <packaging>jar</packaging>
 
-    <name>pig-daemon-service</name>
-    <description>后台跑批定时任务模块</description>
+    <name>anfa-daemon-service</name>
+    <description>分布式调度中心</description>
 
     <parent>
         <groupId>com.anfachina</groupId>
