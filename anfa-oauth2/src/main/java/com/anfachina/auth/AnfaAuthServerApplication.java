@@ -17,11 +17,11 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @EnableResourceServer
 @EnableDiscoveryClient
 @EnableFeignClients
-@ComponentScan(basePackages = {"com.github.pig.auth", "com.github.pig.common.bean"})
-public class PigAuthServerApplication {
+@ComponentScan(basePackages = {"com.anfachina.auth", "com.anfachina.common.bean"})
+public class AnfaAuthServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigAuthServerApplication.class, args);
+        SpringApplication.run(AnfaAuthServerApplication.class, args);
     }
 
 }

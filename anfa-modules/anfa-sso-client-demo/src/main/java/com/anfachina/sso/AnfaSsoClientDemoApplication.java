@@ -11,10 +11,10 @@ import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth
  */
 @EnableOAuth2Sso
 @SpringBootApplication
-public class PigSsoClientDemoApplication {
+public class AnfaSsoClientDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigSsoClientDemoApplication.class, args);
+        SpringApplication.run(AnfaSsoClientDemoApplication.class, args);
     }
 
 }

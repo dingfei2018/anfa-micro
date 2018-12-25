@@ -19,11 +19,11 @@ import org.springframework.security.config.annotation.method.configuration.Enabl
 @SpringBootApplication
 @EnableFeignClients
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-@ComponentScan(basePackages = {"com.github.pig.gateway", "com.github.pig.common.bean"})
-public class PigGatewayApplication {
+@ComponentScan(basePackages = {"com.anfachina.gateway", "com.anfachina.common.bean"})
+public class AnfaGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigGatewayApplication.class, args);
+        SpringApplication.run(AnfaGatewayApplication.class, args);
     }
 
 // 开发时候配置跨域，现在使用vue-cli 自己的代理解决，生成部署，是用Nginx 代理

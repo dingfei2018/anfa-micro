@@ -25,10 +25,10 @@ import java.util.concurrent.TimeUnit;
 @EnableTurbine
 @EnableDiscoveryClient
 @SpringBootApplication
-public class PigMonitorApplication {
+public class AnfaMonitorApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigMonitorApplication.class, args);
+        SpringApplication.run(AnfaMonitorApplication.class, args);
     }
 
     @Configuration

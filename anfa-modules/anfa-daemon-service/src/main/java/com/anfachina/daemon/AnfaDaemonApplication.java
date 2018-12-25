@@ -11,10 +11,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class PigDaemonApplication {
+public class AnfaDaemonApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigDaemonApplication.class, args);
+        SpringApplication.run(AnfaDaemonApplication.class, args);
     }
 
 }

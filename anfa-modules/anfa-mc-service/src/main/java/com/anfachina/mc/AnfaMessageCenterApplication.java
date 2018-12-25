@@ -11,10 +11,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class PigMessageCenterApplication {
+public class AnfaMessageCenterApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigMessageCenterApplication.class, args);
+        SpringApplication.run(AnfaMessageCenterApplication.class, args);
     }
 
 }

@@ -8,8 +8,8 @@
 	<version>${anfa.version}</version>
 	<packaging>jar</packaging>
 
-	<name>pig-eureka</name>
-	<description>eureka server</description>
+	<name>anfa-eureka</name>
+	<description>注册中心</description>
 
 	<parent>
 		<groupId>com.anfachina</groupId>

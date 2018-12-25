@@ -13,9 +13,9 @@ import zipkin.server.EnableZipkinServer;
 @EnableDiscoveryClient
 @SpringBootApplication
 @EnableZipkinServer
-public class PigZipkinElkApplication {
+public class AnfaZipkinElkApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PigZipkinElkApplication.class, args);
+        SpringApplication.run(AnfaZipkinElkApplication.class, args);
     }
 }
