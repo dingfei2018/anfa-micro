@@ -4,9 +4,7 @@
   <img src="https://img.shields.io/badge/Spring%20Boot-1.5.9-blue.svg" alt="Downloads">
   <img src="https://img.shields.io/badge/npm-v5.5.1-blue.svg" alt="Version">
   <img src="https://img.shields.io/npm/l/vue.svg" alt="License">
-</p>
-
-<h2 align="center">Supporting lengleng</h2>   
+</p>   
 
 ### 详细配置 wiki
  https://gitee.com/log4j/pig/wikis/
@@ -26,22 +24,21 @@ https://www.bilibili.com/video/av20229859/
  
  ### now
 ``` lua
-pig
-├── pig-ui -- element-vue-admin实现[9528]
-├── pig-auth -- 授权服务提供[3000]
-├── pig-common -- 系统公共模块 
-├── pig-config -- 配置中心[4001]
-├── pig-eureka -- 服务注册与发现[1025]
-├── pig-gateway -- ZUUL网关[9999]
-├── pig-modules -- 微服务模块
-├    ├── pig-daemon-service -- 分布式调度中心[4060]
-├    ├── pig-mc-service -- 消息中心[4050]
-├    ├── pig-sso-client-demo -- 单点登录客户端示例[4040]
-├    └── pig-upms-service -- 权限管理提供[4000]
-└── pig-visual  -- 图形化模块 
-     ├── pig-monitor -- 服务状态监控、turbine [5001]
-     ├── pig-zipkin-elk -- zipkin、ELK监控[5002、5601]
-     └── pig-cache-cloud -- 缓存管理、统一监控[5005]
+安发微服务
+├── ui -- element-vue-admin实现[9528]
+├── anfa-oauth2 -- 授权服务提供[3000]
+├── anfa-common -- 系统公共模块 
+├── anfa-eureka -- 服务注册与发现[1025]
+├── anfa-gateway -- ZUUL网关[9999]
+├── anfa-modules -- 微服务模块
+├    ├── anfa-daemon-service -- 分布式调度中心[4060]
+├    ├── anfa-mc-service -- 消息中心[4050]
+├    ├── anfa-sso-client-demo -- 单点登录客户端示例[4040]
+├    └── anfa-system-service -- 权限管理提供[4000]
+└── anfa-visual  -- 图形化模块 
+     ├── anfa-monitor -- 服务状态监控、turbine [5001]
+     ├── anfa-zipkin-elk -- zipkin、ELK监控[5002、5601]
+     └── anfa-cache-cloud -- 缓存管理、统一监控[5005]
 ```
 ###  已完成功能
 - 完善登录：账号密码模式、短信验证码模式、社交账号模式均整合Spring security oAuth
