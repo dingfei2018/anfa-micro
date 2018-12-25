@@ -81,7 +81,6 @@
 
     <modules>
         <module>anfa-oauth2</module>
-        <module>anfa-config</module>
         <module>anfa-common</module>
         <module>anfa-eureka</module>
         <module>anfa-gateway</module>
