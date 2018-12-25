@@ -23,7 +23,7 @@
         <module>anfa-daemon-service</module>
         <module>anfa-mc-service</module>
         <module>anfa-sso-client-demo</module>
-        <module>anfa-upms-service</module>
+        <module>anfa-system-service</module>
     </modules>
 
 </project>
